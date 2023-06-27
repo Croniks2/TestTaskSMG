@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu()]
-public class TextureData : UpdatableData
+public class TextureData : ScriptableObject
 {
 
     public Color[] baseColours;
